@@ -1,0 +1,86 @@
+.heder__text{
+    text-align: center; 
+    font-size: 50px;
+}
+.repository-link{
+    font-size: 25px;
+    text-align: center; 
+}
+.input{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+}
+.input input{
+    height: 50px;
+    width: 15vw;
+    min-width: 120px;
+    font-size: 20px;
+    margin: 10px;
+    border: 2px solid #f10000;
+    border-radius: 8px
+}
+.input button{
+    height: 50px;
+    width: 5vw;
+    min-width: 70px;
+    font-size: 20px;
+    margin: 20px;
+    border: 2px solid #7bec11;
+    transition: all 0.3s ease;
+    border-radius: 9px
+}
+.input button:hover {
+  background: #7bec11;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+.list{
+    width: 100%;
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    
+}
+.element{
+    display:block;
+    min-height: 50px;
+    width: 20vw;
+    background-color: #f10000;
+    margin: 10px;
+}
+.element__header {
+    cursor: pointer; /* курсор-рука при наведении */
+    user-select: none; /* чтобы текст не выделялся при клике */
+    font-size: 25px;
+}
+
+.element__contacts {
+    display: none; /* по умолчанию скрыт */
+    background-color: #6d0404;
+}
+
+.element__contacts.open {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#error-message {
+    display: none;
+    color: red;
+    font-size: 16px;
+}
